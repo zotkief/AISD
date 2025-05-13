@@ -1,0 +1,303 @@
+./randomGen 10 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins10x1.txt
+./randomGen 10 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins10x10.txt  
+./randomGen 10 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins10x100.txt
+
+./randomGen 20 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins20x1.txt
+./randomGen 20 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins20x10.txt
+./randomGen 20 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins20x100.txt
+
+./randomGen 30 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins30x1.txt
+./randomGen 30 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins30x10.txt
+./randomGen 30 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins30x100.txt
+
+./randomGen 40 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins40x1.txt
+./randomGen 40 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins40x10.txt
+./randomGen 40 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins40x100.txt
+
+./randomGen 50 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins50x1.txt
+./randomGen 50 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins50x10.txt
+./randomGen 50 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranins50x100.txt
+
+./randomGen 10 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui10x1.txt
+./randomGen 10 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui10x10.txt
+./randomGen 10 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui10x100.txt
+
+./randomGen 20 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui20x1.txt
+./randomGen 20 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui20x10.txt
+./randomGen 20 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui20x100.txt
+
+./randomGen 30 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui30x1.txt
+./randomGen 30 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui30x10.txt
+./randomGen 30 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui30x100.txt
+
+./randomGen 40 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui40x1.txt
+./randomGen 40 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui40x10.txt
+./randomGen 40 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui40x100.txt
+
+./randomGen 50 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui50x1.txt
+./randomGen 50 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui50x10.txt
+./randomGen 50 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranqui50x100.txt
+
+./randomGen 10 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix10x1.txt
+./randomGen 10 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix10x10.txt
+./randomGen 10 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix10x100.txt
+
+./randomGen 20 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix20x1.txt
+./randomGen 20 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix20x10.txt
+./randomGen 20 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix20x100.txt
+
+./randomGen 30 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix30x1.txt
+./randomGen 30 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix30x10.txt
+./randomGen 30 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix30x100.txt
+
+./randomGen 40 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix40x1.txt
+./randomGen 40 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix40x10.txt
+./randomGen 40 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix40x100.txt
+
+./randomGen 50 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix50x1.txt
+./randomGen 50 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix50x10.txt
+./randomGen 50 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ranmix50x100.txt
+
+./randomGen 10 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub10x1.txt
+./randomGen 10 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub10x10.txt
+./randomGen 10 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub10x100.txt
+
+./randomGen 20 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub20x1.txt
+./randomGen 20 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub20x10.txt
+./randomGen 20 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub20x100.txt
+
+./randomGen 30 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub30x1.txt
+./randomGen 30 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub30x10.txt
+./randomGen 30 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub30x100.txt
+
+./randomGen 40 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub40x1.txt
+./randomGen 40 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub40x10.txt
+./randomGen 40 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub40x100.txt
+
+./randomGen 50 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub50x1.txt
+./randomGen 50 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub50x10.txt
+./randomGen 50 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/ransub50x100.txt
+
+./randomGen 10 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua10x1.txt
+./randomGen 10 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua10x10.txt
+./randomGen 10 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua10x100.txt
+
+./randomGen 20 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua20x1.txt
+./randomGen 20 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua20x10.txt
+./randomGen 20 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua20x100.txt
+
+./randomGen 30 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua30x1.txt
+./randomGen 30 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua30x10.txt
+./randomGen 30 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua30x100.txt
+
+./randomGen 40 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua40x1.txt
+./randomGen 40 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua40x10.txt
+./randomGen 40 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua40x100.txt
+
+./randomGen 50 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua50x1.txt
+./randomGen 50 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua50x10.txt
+./randomGen 50 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/randua50x100.txt
+
+./decreaseGen 10 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins10x1.txt
+./decreaseGen 10 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins10x10.txt  
+./decreaseGen 10 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins10x100.txt
+
+./decreaseGen 20 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins20x1.txt
+./decreaseGen 20 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins20x10.txt
+./decreaseGen 20 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins20x100.txt
+
+./decreaseGen 30 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins30x1.txt
+./decreaseGen 30 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins30x10.txt
+./decreaseGen 30 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins30x100.txt
+
+./decreaseGen 40 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins40x1.txt
+./decreaseGen 40 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins40x10.txt
+./decreaseGen 40 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins40x100.txt
+
+./decreaseGen 50 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins50x1.txt
+./decreaseGen 50 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins50x10.txt
+./decreaseGen 50 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decins50x100.txt
+
+./decreaseGen 10 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui10x1.txt
+./decreaseGen 10 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui10x10.txt
+./decreaseGen 10 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui10x100.txt
+
+./decreaseGen 20 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui20x1.txt
+./decreaseGen 20 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui20x10.txt
+./decreaseGen 20 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui20x100.txt
+
+./decreaseGen 30 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui30x1.txt
+./decreaseGen 30 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui30x10.txt
+./decreaseGen 30 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui30x100.txt
+
+./decreaseGen 40 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui40x1.txt
+./decreaseGen 40 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui40x10.txt
+./decreaseGen 40 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui40x100.txt
+
+./decreaseGen 50 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui50x1.txt
+./decreaseGen 50 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui50x10.txt
+./decreaseGen 50 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decqui50x100.txt
+
+./decreaseGen 10 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix10x1.txt
+./decreaseGen 10 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix10x10.txt
+./decreaseGen 10 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix10x100.txt
+
+./decreaseGen 20 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix20x1.txt
+./decreaseGen 20 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix20x10.txt
+./decreaseGen 20 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix20x100.txt
+
+./decreaseGen 30 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix30x1.txt
+./decreaseGen 30 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix30x10.txt
+./decreaseGen 30 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix30x100.txt
+
+./decreaseGen 40 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix40x1.txt
+./decreaseGen 40 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix40x10.txt
+./decreaseGen 40 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix40x100.txt
+
+./decreaseGen 50 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix50x1.txt
+./decreaseGen 50 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix50x10.txt
+./decreaseGen 50 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decmix50x100.txt
+
+./decreaseGen 10 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub10x1.txt
+./decreaseGen 10 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub10x10.txt
+./decreaseGen 10 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub10x100.txt
+
+./decreaseGen 20 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub20x1.txt
+./decreaseGen 20 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub20x10.txt
+./decreaseGen 20 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub20x100.txt
+
+./decreaseGen 30 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub30x1.txt
+./decreaseGen 30 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub30x10.txt
+./decreaseGen 30 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub30x100.txt
+
+./decreaseGen 40 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub40x1.txt
+./decreaseGen 40 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub40x10.txt
+./decreaseGen 40 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub40x100.txt
+
+./decreaseGen 50 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub50x1.txt
+./decreaseGen 50 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub50x10.txt
+./decreaseGen 50 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decsub50x100.txt
+
+./decreaseGen 10 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua10x1.txt
+./decreaseGen 10 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua10x10.txt
+./decreaseGen 10 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua10x100.txt
+
+./decreaseGen 20 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua20x1.txt
+./decreaseGen 20 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua20x10.txt
+./decreaseGen 20 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua20x100.txt
+
+./decreaseGen 30 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua30x1.txt
+./decreaseGen 30 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua30x10.txt
+./decreaseGen 30 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua30x100.txt
+
+./decreaseGen 40 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua40x1.txt
+./decreaseGen 40 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua40x10.txt
+./decreaseGen 40 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua40x100.txt
+
+./decreaseGen 50 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua50x1.txt
+./decreaseGen 50 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua50x10.txt
+./decreaseGen 50 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/decdua50x100.txt
+
+./increaseGen 10 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins10x1.txt
+./increaseGen 10 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins10x10.txt  
+./increaseGen 10 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins10x100.txt
+
+./increaseGen 20 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins20x1.txt
+./increaseGen 20 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins20x10.txt
+./increaseGen 20 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins20x100.txt
+
+./increaseGen 30 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins30x1.txt
+./increaseGen 30 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins30x10.txt
+./increaseGen 30 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins30x100.txt
+
+./increaseGen 40 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins40x1.txt
+./increaseGen 40 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins40x10.txt
+./increaseGen 40 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins40x100.txt
+
+./increaseGen 50 1 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins50x1.txt
+./increaseGen 50 10 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins50x10.txt
+./increaseGen 50 100 | ./insertsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incins50x100.txt
+
+./increaseGen 10 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui10x1.txt
+./increaseGen 10 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui10x10.txt
+./increaseGen 10 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui10x100.txt
+
+./increaseGen 20 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui20x1.txt
+./increaseGen 20 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui20x10.txt
+./increaseGen 20 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui20x100.txt
+
+./increaseGen 30 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui30x1.txt
+./increaseGen 30 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui30x10.txt
+./increaseGen 30 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui30x100.txt
+
+./increaseGen 40 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui40x1.txt
+./increaseGen 40 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui40x10.txt
+./increaseGen 40 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui40x100.txt
+
+./increaseGen 50 1 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui50x1.txt
+./increaseGen 50 10 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui50x10.txt
+./increaseGen 50 100 | ./quicksort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incqui50x100.txt
+
+./increaseGen 10 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix10x1.txt
+./increaseGen 10 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix10x10.txt
+./increaseGen 10 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix10x100.txt
+
+./increaseGen 20 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix20x1.txt
+./increaseGen 20 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix20x10.txt
+./increaseGen 20 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix20x100.txt
+
+./increaseGen 30 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix30x1.txt
+./increaseGen 30 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix30x10.txt
+./increaseGen 30 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix30x100.txt
+
+./increaseGen 40 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix40x1.txt
+./increaseGen 40 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix40x10.txt
+./increaseGen 40 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix40x100.txt
+
+./increaseGen 50 1 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix50x1.txt
+./increaseGen 50 10 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix50x10.txt
+./increaseGen 50 100 | ./mixSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incmix50x100.txt
+
+./increaseGen 10 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub10x1.txt
+./increaseGen 10 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub10x10.txt
+./increaseGen 10 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub10x100.txt
+
+./increaseGen 20 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub20x1.txt
+./increaseGen 20 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub20x10.txt
+./increaseGen 20 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub20x100.txt
+
+./increaseGen 30 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub30x1.txt
+./increaseGen 30 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub30x10.txt
+./increaseGen 30 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub30x100.txt
+
+./increaseGen 40 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub40x1.txt
+./increaseGen 40 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub40x10.txt
+./increaseGen 40 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub40x100.txt
+
+./increaseGen 50 1 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub50x1.txt
+./increaseGen 50 10 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub50x10.txt
+./increaseGen 50 100 | ./subsort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incsub50x100.txt
+
+./increaseGen 10 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua10x1.txt
+./increaseGen 10 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua10x10.txt
+./increaseGen 10 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua10x100.txt
+
+./increaseGen 20 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua20x1.txt
+./increaseGen 20 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua20x10.txt
+./increaseGen 20 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua20x100.txt
+
+./increaseGen 30 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua30x1.txt
+./increaseGen 30 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua30x10.txt
+./increaseGen 30 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua30x100.txt
+
+./increaseGen 40 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua40x1.txt
+./increaseGen 40 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua40x10.txt
+./increaseGen 40 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua40x100.txt
+
+./increaseGen 50 1 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua50x1.txt
+./increaseGen 50 10 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua50x10.txt
+./increaseGen 50 100 | ./dualSort tmux capture-pane -p -S'-' -E'-' -J > ../wyniki/incdua50x100.txt
+
+
+
+

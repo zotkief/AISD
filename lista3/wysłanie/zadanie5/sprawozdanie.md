@@ -1,0 +1,265 @@
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ echo #Paweł Rzatkiewicz;
+
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ svn export https://repo.cs.pwr.edu.pl/279723-dir/mw1/lista3/zadanie5/
+cd zadanie5
+
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ g++ modQS.cpp -o mqs; g++ modDS.cpp -o mds; g++ quickSort.cpp -o qs; g++ dualSort.cpp -o ds
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ g++ increaseGen.cpp -o increaseGen; g++ decreaseGen.cpp -o decreaseGen; g++ randomGen.cpp -o randomGen
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ ./randomGen 20 | ./mds
+tablica wyjściowa
+12 28 02 39 04 34 07 29 27 33 09 37 13 13 22 22 25 10 10 16 
+porownanie:
+12 28 02 39 04 34 07 29 27 33 09 37 13 13 22 22 25 10 10 16 
+startowa:
+12 28 02 39 04 34 07 29 27 33 09 37 13 13 22 22 25 10 10 16 
+porownanie:
+09 10 02 10 04 07 12 22 16 22 25 13 13 27 33 29 34 39 28 37 
+startowa:
+12 28 02 39 04 34 07 29 27 33 09 37 13 13 22 22 25 10 10 16 
+porownanie:
+04 02 07 09 10 10 12 22 16 22 25 13 13 27 33 29 34 39 28 37 
+startowa:
+12 28 02 39 04 34 07 29 27 33 09 37 13 13 22 22 25 10 10 16 
+porownanie:
+02 04 07 09 10 10 12 22 16 22 25 13 13 27 33 29 34 39 28 37 
+startowa:
+12 28 02 39 04 34 07 29 27 33 09 37 13 13 22 22 25 10 10 16 
+porownanie:
+02 04 07 09 10 10 12 22 16 22 25 13 13 27 33 29 34 39 28 37 
+startowa:
+12 28 02 39 04 34 07 29 27 33 09 37 13 13 22 22 25 10 10 16 
+porownanie:
+02 04 07 09 10 10 12 13 13 16 22 22 25 27 33 29 34 39 28 37 
+startowa:
+12 28 02 39 04 34 07 29 27 33 09 37 13 13 22 22 25 10 10 16 
+porownanie:
+02 04 07 09 10 10 12 13 13 16 22 22 25 27 33 29 34 39 28 37 
+startowa:
+12 28 02 39 04 34 07 29 27 33 09 37 13 13 22 22 25 10 10 16 
+porownanie:
+02 04 07 09 10 10 12 13 13 16 22 22 25 27 28 29 33 34 37 39 
+startowa:
+12 28 02 39 04 34 07 29 27 33 09 37 13 13 22 22 25 10 10 16 
+posortowana:02 04 07 09 10 10 12 13 13 16 22 22 25 27 28 29 33 34 37 39 
+182 594
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ ./randomGen 20 | ./mqs
+tablica wyjściowa
+14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:14 06 14 09 20 04 19 15 02 24 31 30 33 25 37 37 37 26 34 31 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 06 09 04 14 14 19 15 20 24 31 30 33 25 37 37 37 26 34 31 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 14 09 14 19 15 20 24 31 30 33 25 37 37 37 26 34 31 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 14 09 14 19 15 20 24 31 30 33 25 37 37 37 26 34 31 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 09 14 14 19 15 20 24 31 30 33 25 37 37 37 26 34 31 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 09 14 14 15 19 20 24 31 30 33 25 37 37 37 26 34 31 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 09 14 14 15 19 20 24 31 30 33 25 37 37 37 26 34 31 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 09 14 14 15 19 20 24 30 25 26 31 31 37 37 33 34 37 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 09 14 14 15 19 20 24 25 26 30 31 31 37 37 33 34 37 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 09 14 14 15 19 20 24 25 26 30 31 31 37 37 33 34 37 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 09 14 14 15 19 20 24 25 26 30 31 31 33 34 37 37 37 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 09 14 14 15 19 20 24 25 26 30 31 31 33 34 37 37 37 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+kolejny krok
+sortowana:02 04 06 09 14 14 15 19 20 24 25 26 30 31 31 33 34 37 37 37 
+startowa:14 31 06 33 14 30 09 37 24 20 31 04 19 25 37 37 15 26 02 34 
+posortowana:02 04 06 09 14 14 15 19 20 24 25 26 30 31 31 33 34 37 37 37 
+156 294
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ ./increaseGen 20 | ./mqs
+tablica wyjściowa
+00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+kolejny krok
+sortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+startowa:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+posortowana:00 01 01 01 01 01 01 01 01 03 04 05 08 08 08 12 12 14 14 16 
+207 369
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ ./increaseGen 20 | ./mds 
+tablica wyjściowa
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+porownanie:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+startowa:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+porownanie:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 19 20 23 25 18 
+startowa:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+porownanie:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 19 20 23 25 18 
+startowa:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+porownanie:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 19 20 23 25 18 
+startowa:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+porownanie:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 19 20 23 25 18 
+startowa:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+porownanie:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 19 20 23 25 18 
+startowa:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+porownanie:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+startowa:
+00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+posortowana:00 02 02 04 05 05 06 06 06 06 08 09 14 14 18 18 19 20 23 25 
+201 573
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ ./decreaseGen 20 | ./mds
+tablica wyjściowa
+35 32 32 32 31 31 28 28 26 22 21 20 20 20 19 17 17 16 15 14 
+porownanie:
+35 32 32 32 31 31 28 28 26 22 21 20 20 20 19 17 17 16 15 14 
+startowa:
+35 32 32 32 31 31 28 28 26 22 21 20 20 20 19 17 17 16 15 14 
+porownanie:
+14 15 16 17 17 19 20 28 26 22 21 20 20 28 31 31 32 32 32 35 
+startowa:
+35 32 32 32 31 31 28 28 26 22 21 20 20 20 19 17 17 16 15 14 
+porownanie:
+14 15 16 17 17 19 20 28 26 22 21 20 20 28 31 31 32 32 32 35 
+startowa:
+35 32 32 32 31 31 28 28 26 22 21 20 20 20 19 17 17 16 15 14 
+porownanie:
+14 15 16 17 17 19 20 28 26 22 21 20 20 28 31 31 32 32 32 35 
+startowa:
+35 32 32 32 31 31 28 28 26 22 21 20 20 20 19 17 17 16 15 14 
+porownanie:
+14 15 16 17 17 19 20 20 20 21 22 26 28 28 31 31 32 32 32 35 
+startowa:
+35 32 32 32 31 31 28 28 26 22 21 20 20 20 19 17 17 16 15 14 
+porownanie:
+14 15 16 17 17 19 20 20 20 21 22 26 28 28 31 31 32 32 32 35 
+startowa:
+35 32 32 32 31 31 28 28 26 22 21 20 20 20 19 17 17 16 15 14 
+porownanie:
+14 15 16 17 17 19 20 20 20 21 22 26 28 28 31 31 32 32 32 35 
+startowa:
+35 32 32 32 31 31 28 28 26 22 21 20 20 20 19 17 17 16 15 14 
+posortowana:14 15 16 17 17 19 20 20 20 21 22 26 28 28 31 31 32 32 32 35 
+166 507
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ ./decreaseGen 20 | ./mqs
+tablica wyjściowa
+37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 10 09 08 07 07 07 18 19 19 26 26 37 32 31 31 30 30 26 26 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 19 18 10 19 26 26 37 32 31 31 30 30 26 26 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 19 18 10 19 26 26 37 32 31 31 30 30 26 26 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 19 18 10 19 26 26 37 32 31 31 30 30 26 26 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 37 32 31 31 30 30 26 26 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 37 32 31 31 30 30 26 26 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 26 26 30 31 37 30 32 31 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 26 26 30 31 37 30 32 31 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 26 26 30 31 37 30 32 31 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 26 26 30 31 37 30 32 31 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 26 26 30 31 37 30 32 31 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 26 26 30 31 37 30 32 31 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 26 26 30 30 31 31 32 37 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 26 26 30 30 31 31 32 37 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+kolejny krok
+sortowana:02 07 07 07 08 09 10 18 19 19 26 26 26 26 30 30 31 31 32 37 
+startowa:37 32 31 31 30 30 26 26 26 26 19 19 18 10 09 08 07 07 07 02 
+posortowana:02 07 07 07 08 09 10 18 19 19 26 26 26 26 30 30 31 31 32 37 
+192 357
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ echo #wykresy pokazujące porównanie między algorytmemi używającymi i nieużywającymi select znajdują się w pliku wykresy.pdf
+
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ echo #widać że w przypadku użycia algorytmu select do wyznaczania pivota ilości są porównań i przestawień są większe niż przy sortownaniu danych losowych bez użycia select, ale w przypadku ciągów rosnących i malejących widać dużą różnicę ponieważ quicksort i dual pivot qs osiągają O(n^2) a przy użyciu algorytmu select złożoność pozostaje O(n*logn)
+
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ echo #wykresy obrazujące współczynniki są w pliku współczynniki.pdf
+
+zotkief@zotkief-Latitude-7490:~/gitHub/AISD/lista3/wysłanie/zadanie5$ tmux capture-pane -p -S'-' -E'-' -J > sprawozdanie.md
+

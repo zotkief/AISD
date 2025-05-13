@@ -1,0 +1,17 @@
+pierwsza lista:
+86 86 40 92 66 77 70 66 81 16 
+druga lista:
+90 35 96 69 99 20 99 46 65 50 
+zlaczona lista:
+86 35 96 69 99 20 99 46 65 50 90 86 40 92 66 77 70 66 81 16 
+wyszukiwanie losowych: 9546.84
+wyszukiwanie wszystkich: 4863
+
+
+wnioski:
+
+W przypadku wyszukiwania liczb o których wadome jest, że należą do listy średnie wyszukiwanie zajmuje przeszukanie około połowy listy co zgadza się z intuicją mówiącą, przeciętnie szukana liczba będzie w środku listy. Widać natomiast, że ilość porównań jest mniejsza niż 10000, prawdopodobnie z uwagi na możliwość istnienia duplikatów.
+
+W przypadku wyszukiwania losowej liczby ilość średnich wyszukiwań jest bliska 10000, ponieważ jeżeli losowana jest jednostajnie liczba ze zbioru [100 000] to maksymalnie 10% z tych liczb może być obecna w liście, a w przypadku reszty potrzeba przejść całą listę żeby upewnić się że ta konkretna wartość nie występuje w liście. Wtedy w tylko w 10% przypadków średnio liczba potrzebowałaby 5000 porównań żeby być znaleziona.
+
+Ponadto po wynikach można wnioskować, że dodanie drugiego kierunku nie wpływa na szybkość znajdowania wartości w listach cyklicznych, ponieważ dalej kierunek jest wybierany losowo, co nawet intuicyjnie nie może znacząco wpłynąć na prędkość wyszukiwania.

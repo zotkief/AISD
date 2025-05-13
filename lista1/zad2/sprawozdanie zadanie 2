@@ -1,0 +1,14 @@
+pierwsza lista:
+46 74 84 12 99 79 41 13 16 22 
+druga lista:
+65 15 91 44 91 39 64 12 27 43 
+zlaczona lista:
+46 15 91 44 91 39 64 12 27 43 65 74 84 12 99 79 41 13 16 22 
+wyszukiwanie losowych: 9503.92
+wyszukiwanie wszystkich: 4889.59
+
+wnioski:
+
+W przypadku wyszukiwania liczb o których wadome jest, że należą do listy średnie wyszukiwanie zajmuje przeszukanie około połowy listy co zgadza się z intuicją mówiącą, przeciętnie szukana liczba będzie w środku listy. Widać natomiast, że ilość porównań jest mniejsza niż 10000, prawdopodobnie z uwagi na możliwość istnienia duplikatów.
+
+W przypadku wyszukiwania losowej liczby ilość średnich wyszukiwań jest bliska 10000, ponieważ jeżeli losowana jest jednostajnie liczba ze zbioru [100 000] to maksymalnie 10% z tych liczb może być obecna w liście, a w przypadku reszty potrzeba przejść całą listę żeby upewnić się że ta konkretna wartość nie występuje w liście. Wtedy w tylko w 10% przypadków średnio liczba potrzebowałaby 5000 porównań żeby być znaleziona.
